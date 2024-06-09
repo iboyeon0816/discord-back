@@ -16,5 +16,6 @@ public class ChannelResponseDto {
     public static class GetResultDto {
         private Long channelId;
         private String channelName;
+        private String creatorName;
     }
 }

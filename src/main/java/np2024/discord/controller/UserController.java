@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/users")
 @RequiredArgsConstructor
-@Tag(name = "Users", description = "서버와 연결된 사용자 정보 API")
+@Tag(name = "Users", description = "온라인 상태의 사용자 정보 API")
 public class UserController {
 
     private final SessionRepository sessionRepository;

@@ -18,10 +18,6 @@ public class SessionRepository {
         store.put(sessionId, user);
     }
 
-    public User findById(String sessionId) {
-        return store.get(sessionId);
-    }
-
     public List<User> findAll() {
         return new ArrayList<>(store.values());
     }
